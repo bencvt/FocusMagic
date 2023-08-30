@@ -1,7 +1,7 @@
 ## Interface: 30402
 ## Title: Focus Magic
 ## Author: bencvt
-## Version: 1.0
+## Version: 1.0.0
 ## Notes: Automatically assign focus magic circles by typing /fm
 ## DefaultState: Enabled
 
