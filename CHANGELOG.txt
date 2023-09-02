@@ -1,2 +1,6 @@
+v1.0.1:
+  - fix party chat
+  - fix error when there are mages needing inspection
+
 v1.0.0:
   - initial release

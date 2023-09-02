@@ -95,13 +95,16 @@ end
 
 
 function group:ShouldUsePartyChat()
-  local parties = {}
+  local party = nil
   for i = 1, self.size do
     if self.roster[i].hasFocusMagic or self.roster[i].isPlayer then
-      parties[self.roster[i].party] = true
+      if party and party ~= self.roster[i].party then
+        return false
+      end
+      party = self.roster[i].party
     end
   end
-  return #parties == 1
+  return true
 end
 
 
@@ -109,7 +112,7 @@ local function join(sep, list)
   if #list < 1 then
     return ""
   end
-  local result = list[i]
+  local result = list[1]
   for i = 2, #list do
     result = result..sep..list[i]
   end
