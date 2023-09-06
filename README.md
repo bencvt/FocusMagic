@@ -40,3 +40,8 @@ And so on.
 Alphabetic assignments are straightforward and work just fine for the vast majority of raid groups, but...
 
 For highly organized raids with 4+ mages looking to min/max absolutely everything, you'll probably want to manually assign FMs instead, with your best mages paired up. This addon does not try to determine which mages are "best".
+
+## Links
+
+ * https://www.curseforge.com/wow/addons/focus-magic - download and install this addon from CurseForge, or use your addon manager of choice
+ * https://github.com/bencvt/FocusMagic - source repo
