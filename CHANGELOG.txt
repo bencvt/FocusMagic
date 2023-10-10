@@ -1,3 +1,6 @@
+v1.0.2:
+  - update for Wrath Classic phase 3
+
 v1.0.1:
   - fix party chat
   - fix error when there are mages needing inspection
